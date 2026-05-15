@@ -17,8 +17,8 @@ docker buildx create --name palmr-builder --use 2>/dev/null || docker buildx use
 docker buildx build \
     --platform linux/amd64,linux/arm64 \
     --no-cache \
-    -t kyantech/palmr:latest \
-    -t kyantech/palmr:$TAG \
+    -t tst-038/palmr:latest \
+    -t tst-038/palmr:$TAG \
     --push \
     .
 

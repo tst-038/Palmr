@@ -233,7 +233,7 @@ export class EmailService {
                 If you didn't expect this email, you can safely ignore it.
               </p>
               <p style="margin: 4px 0 0 0; color: #9ca3af; font-size: 10px;">
-                Powered by <a href="https://kyantech.com.br" style="color: #9ca3af; text-decoration: none;">Kyantech Solutions</a>
+                Powered by <a href="https://github.com/tst-038/Palmr" style="color: #9ca3af; text-decoration: none;">Palmr</a>
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ export class EmailService {
                 If you didn't expect this email, you can safely ignore it.
               </p>
               <p style="margin: 4px 0 0 0; color: #9ca3af; font-size: 10px;">
-                Powered by <a href="https://kyantech.com.br" style="color: #9ca3af; text-decoration: none;">Kyantech Solutions</a>
+                Powered by <a href="https://github.com/tst-038/Palmr" style="color: #9ca3af; text-decoration: none;">Palmr</a>
               </p>
             </div>
           </div>

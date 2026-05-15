@@ -83,7 +83,7 @@ function Hero() {
         </PulsatingButton>
         <RippleButton>
           <a
-            href="https://github.com/kyantech/Palmr"
+            href="https://github.com/tst-038/Palmr"
             target="_blank"
             rel="noreferrer noopener"
             className="flex gap-2 items-center"
@@ -272,7 +272,7 @@ function GetStarted() {
             </PulsatingButton>
             <RippleButton>
               <a
-                href="https://github.com/kyantech/Palmr"
+                href="https://github.com/tst-038/Palmr"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="flex gap-2 items-center"
@@ -294,12 +294,12 @@ function FullWidthFooter() {
       <div className="flex items-center gap-1 text-sm max-w-7xl">
         <span>Powered by</span>
         <Link
-          href="https://github.com/kyantech"
+          href="https://github.com/tst-038/Palmr"
           rel="noopener noreferrer"
           target="_blank"
           className="flex items-center hover:text-green-700 text-green-500 transition-colors font-light"
         >
-          Kyantech Solutions ©
+          Palmr
         </Link>
       </div>
     </footer>

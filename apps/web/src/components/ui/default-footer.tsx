@@ -20,11 +20,11 @@ export function DefaultFooter() {
         <Link
           target="_blank"
           className="flex items-center gap-1 text-current"
-          href="https://kyantech.com.br"
+          href="https://github.com/tst-038/Palmr"
           title={t("footer.kyanHomepage")}
         >
           <span className="text-default-600 text-xs sm:text-sm">{t("footer.poweredBy")}</span>
-          <p className="text-primary text-xs sm:text-sm">Kyantech Solutions</p>
+          <p className="text-primary text-xs sm:text-sm">Palmr</p>
         </Link>
         {!shouldHideVersion && <span className="text-default-500 text-[11px] mt-1">v{version}</span>}
       </div>

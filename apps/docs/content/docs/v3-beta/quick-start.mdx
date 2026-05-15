@@ -30,7 +30,7 @@ Before you begin, make sure you have:
 <Callout>
   **Platform Support**: Palmr. is developed on macOS and extensively tested on Linux servers. While we haven't formally
   tested other platforms, Docker's cross-platform nature should ensure compatibility. Report any issues on our [GitHub
-  repository](https://github.com/kyantech/Palmr/issues).
+  repository](https://github.com/tst-038/Palmr/issues).
 </Callout>
 
 ## Storage Options
@@ -59,7 +59,7 @@ Choose your storage method based on your needs:
     ```yaml
     services:
       palmr:
-        image: kyantech/palmr:latest
+        image: tst-038/palmr:latest
         container_name: palmr
         environment:
           # ==============================================================================
@@ -130,7 +130,7 @@ Choose your storage method based on your needs:
     ```yaml
     services:
       palmr:
-        image: kyantech/palmr:latest
+        image: tst-038/palmr:latest
         container_name: palmr
         environment:
           # ==============================================================================
@@ -264,7 +264,7 @@ Prefer Docker commands over Compose? Here are the equivalent commands:
       -p 3333:3333 \
       -v palmr_data:/app/server \
       --restart unless-stopped \
-      kyantech/palmr:latest
+      tst-038/palmr:latest
     ```
 
 
@@ -295,7 +295,7 @@ Prefer Docker commands over Compose? Here are the equivalent commands:
       -p 3333:3333 \
       -v $(pwd)/data:/app/server \
       --restart unless-stopped \
-      kyantech/palmr:latest
+      tst-038/palmr:latest
     ```
 
     <Callout type="info">
@@ -383,4 +383,4 @@ Your Palmr instance is ready! Here's what you can explore:
 
 ---
 
-**Questions?** Visit our [GitHub Issues](https://github.com/kyantech/Palmr/issues) or join the community discussions.
+**Questions?** Visit our [GitHub Issues](https://github.com/tst-038/Palmr/issues) or join the community discussions.

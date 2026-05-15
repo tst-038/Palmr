@@ -8,7 +8,7 @@ export const siteConfig = {
     },
     {
       label: "Docs",
-      href: "https://palmr.kyantech.com.br",
+      href: "https://github.com/tst-038/Palmr",
     },
   ],
   navMenuItems: [
@@ -18,12 +18,12 @@ export const siteConfig = {
     },
     {
       label: "Docs",
-      href: "https://palmr.kyantech.com.br",
+      href: "https://github.com/tst-038/Palmr",
     },
   ],
   links: {
-    github: "https://github.com/kyantech/Palmr",
-    docs: "https://palmr.kyantech.com.br",
-    sponsor: "https://github.com/sponsors/kyantech",
+    github: "https://github.com/tst-038/Palmr",
+    docs: "https://github.com/tst-038/Palmr",
+    sponsor: "https://github.com/sponsors/tst-038",
   },
 };

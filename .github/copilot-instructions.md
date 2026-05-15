@@ -237,7 +237,7 @@ docker-compose down   # Stop all services
 
 ## Resources
 
-- **Documentation**: [https://palmr.kyantech.com.br](https://palmr.kyantech.com.br)
+- **Documentation**: [https://github.com/tst-038/Palmr](https://github.com/tst-038/Palmr)
 - **Contributing Guide**: [CONTRIBUTING.md](../CONTRIBUTING.md)
 - **Issue Tracker**: GitHub Issues
 - **License**: Apache-2.0

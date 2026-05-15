@@ -3,7 +3,7 @@
   "version": "3.3.2-beta",
   "description": "API for Palmr",
   "private": true,
-  "author": "Daniel Luiz Alves <daniel@kyantech.com.br>",
+  "author": "Tristan Degraeve <tristan.degraeve@gmail.com>",
   "keywords": [
     "palmr",
     "api",

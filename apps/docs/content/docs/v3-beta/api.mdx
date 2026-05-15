@@ -18,7 +18,7 @@ To access the API endpoints, you need to expose port **3333** in your Docker con
 ```yaml
 services:
   palmr:
-    image: kyantech/palmr:latest
+    image: tst-038/palmr:latest
     ports:
       - "5487:5487" # Web interface
       - "3333:3333" # API port (required for API access)
@@ -34,7 +34,7 @@ docker run -d \
   -p 3333:3333 \
   -v palmr_data:/app/server \
   --restart unless-stopped \
-  kyantech/palmr:latest
+  tst-038/palmr:latest
 ```
 
 > **Note:** Port 3333 exposure is optional if you only need the web interface. However, it's required for direct API access, custom integrations, and accessing the interactive documentation.

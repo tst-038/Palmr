@@ -1,6 +1,6 @@
 services:
   palmr:
-    image: kyantech/palmr:latest
+    image: tst-038/palmr:latest
     container_name: palmr
     environment:
       # ==============================================================================
