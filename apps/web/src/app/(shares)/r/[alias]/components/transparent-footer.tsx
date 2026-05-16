@@ -24,9 +24,7 @@ export function TransparentFooter() {
           title={t("footer.kyanHomepage")}
         >
           <span className="text-white/70 text-xs sm:text-sm">{t("footer.poweredBy")}</span>
-          <p className="text-primary text-xs sm:text-sm font-medium cursor-pointer hover:text-primary/80">
-            Palmr
-          </p>
+          <p className="text-primary text-xs sm:text-sm font-medium cursor-pointer hover:text-primary/80">Palmr</p>
         </Link>
         {!shouldHideVersion && <span className="text-white text-[11px] mt-1">v{version}</span>}
       </div>
